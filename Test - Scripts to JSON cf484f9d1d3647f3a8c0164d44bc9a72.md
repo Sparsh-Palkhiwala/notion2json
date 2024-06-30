@@ -1,0 +1,215 @@
+# Test - Scripts to JSON
+
+### Introduction
+
+Hi, I’m Kate, and this is Psych for Life®.
+
+Now that we know about the telltale signs of burnout, we will zero in on the workplace, and the steps that supervisors can take to reduce burnout in their employees. 
+
+Research has shown that employees experiencing burnout are at a higher risk of leaving the job [**[5]](https://www.proquest.com/docview/2534583607?accountid=4485).** Even those who stay have lower productivity and commitment to their job. Therefore, it is in the supervisor's and the organization's best interest to create a healthy workplace environment.
+
+Additionally, studies have shown that workplace practices have a bigger impact on employee burnout than what employees do themselves to reduce their symptoms of burnout. This is why it is so important to focus on changes in the workplace itself as a starting point. 
+
+So, how can supervisors reduce employee burnout? 
+
+In this video, we will look at **4 tools for reducing burnout in the workplace including** [**[6]**](https://www.sciencedirect.com/science/article/pii/S0007681321000392):
+
+1. Making space for employees to be active crafters of their work
+2. Involving employees in decision-making
+3. Encouraging and engaging in social support and
+4. Providing Stress Management Resources
+
+Let’s get started! 
+
+Hi, I’m Kate, and this is Psych for Life®.
+
+Now that we know about the telltale signs of burnout, we will zero in on the workplace, and the steps that supervisors can take to reduce burnout in their employees. 
+
+Research has shown that employees experiencing burnout are at a higher risk of leaving the job [**[5]](https://www.proquest.com/docview/2534583607?accountid=4485).** Even those who stay have lower productivity and commitment to their job. Therefore, it is in the supervisor's and the organization's best interest to create a healthy workplace environment.
+
+Additionally, studies have shown that workplace practices have a bigger impact on employee burnout than what employees do themselves to reduce their symptoms of burnout. This is why it is so important to focus on changes in the workplace itself as a starting point. 
+
+So, how can supervisors reduce employee burnout? 
+
+In this video, we will look at **4 tools for reducing burnout in the workplace including** [**[6]**](https://www.sciencedirect.com/science/article/pii/S0007681321000392):
+
+1. Making space for employees to be active crafters of their work
+2. Involving employees in decision-making
+3. Encouraging and engaging in social support and
+4. Providing Stress Management Resources
+
+Let’s get started! 
+
+## **1. Making Space For Employees To Be Active Crafters of their Work**
+
+Our first tool for reducing burnout at work is to create an environment that allows employees to be active crafters of their work. Now, what exactly does this mean? This means that employees have some say in whatever they are working on. The supervisor can still have the final say, but granting employees some autonomy gives flexibility and control back to the employee.
+
+- This can look like a supervisor asking an employee whether they would like to do task 1 or task 2. Both tasks will need to be done at some point, but the key idea is that the employee gets to *choose* what to do.
+
+Research shows that employees having some say in their work is associated with higher motivation and engagement [**[6]**](https://www.sciencedirect.com/science/article/pii/S0007681321000392). So, supervisors can lower the chances of employees experiencing burnout by giving them autonomy over their work. 
+
+*Kate expands with an example of giving a choice to an employee.*
+
+**ACTIVITY: TEXT ENTRY**
+
+1. How do you already give space for employees to have a say in their work?
+    1. TEXTBOX (Variable name: How_to_give_space)
+
+**ACTIVITY: TEXT ENTRY**
+
+1. List up to 3 things you can do for employees to have more autonomy:
+    1. TEXTBOX (Variable name: Ways_to_give_autonomy)
+
+**ACTIVITY: SINGLE SELECT (MULTIPLE CHOICE)**
+
+Pick a phrase or question to give your employee choices: 
+
+1. Here are some of the tasks that we need to get done: X, Y, and Z. 
+2. What do you think is the most important aspect of this project?
+3. Do you have a preference in what you want to start with?
+
+(Variable name: Question_to_ask_employee)
+
+Our first tool for reducing burnout at work is to create an environment that allows employees to be active crafters of their work. Now, what exactly does this mean? This means that employees have some say in whatever they are working on. The supervisor can still have the final say, but granting employees some autonomy gives flexibility and control back to the employee.
+
+- This can look like a supervisor asking an employee whether they would like to do task 1 or task 2. Both tasks will need to be done at some point, but the key idea is that the employee gets to *choose* what to do.
+
+Research shows that employees having some say in their work is associated with higher motivation and engagement [**[6]**](https://www.sciencedirect.com/science/article/pii/S0007681321000392). So, supervisors can lower the chances of employees experiencing burnout by giving them autonomy over their work. 
+
+*Kate expands with an example of giving a choice to an employee.*
+
+**ACTIVITY: TEXT ENTRY**
+
+1. How do you already give space for employees to have a say in their work?
+    1. TEXTBOX (Variable name: How_to_give_space)
+
+**ACTIVITY: TEXT ENTRY**
+
+1. List up to 3 things you can do for employees to have more autonomy:
+    1. TEXTBOX (Variable name: Ways_to_give_autonomy)
+
+**ACTIVITY: SINGLE SELECT (MULTIPLE CHOICE)**
+
+Pick a phrase or question to give your employee choices: 
+
+1. Here are some of the tasks that we need to get done: X, Y, and Z. 
+2. What do you think is the most important aspect of this project?
+3. Do you have a preference in what you want to start with?
+
+(Variable name: Question_to_ask_employee)
+
+## **2. Involving employees in decision-making**
+
+Our second tool for reducing employee burnout is to involve employees in the decision-making process. This builds on our first tool of allowing employees to be active crafters of their work and builds upon it by giving them a voice in how the whole team operates. We can engage employees in a few different ways:
+
+1. **Communicate transparently about how decisions are made** [**[7]**](https://pdf.sciencedirectassets.com/272104/1-s2.0-S0363811121X00045/1-s2.0-S0363811121000825/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIArNK6u4Ab8B1tWKiPgDY4W7ZHy6F4LuOEKXd%2BdeKOlEAiATqeFF8aY9BojsUblfHevjNQliNr%2BEmT%2B6hgZFe0eSRCqyBQhgEAUaDDA1OTAwMzU0Njg2NSIMETqnVDACs1oUJSrMKo8FIrNky9y02gjY5owcpLyG7mkbsF9Dgv63aadRh5obyxE6516J3ySTy8riXzR1%2FwYjsoAgqRAKf22au2X%2F1SWeS7Xe6z%2BlwJXYehxPuysdJJHIvOEn5g41epFEGTJ%2FSCNvj%2Fbk1AP%2BoJn2aqapn2S82yNJkWtccibcjUjWJhxyWRUkjhf0n59vL8efnrYmJAcSjW2Zhpgg6ooYmaSuzAIGQqIRBqR0H9fZE0YgDOJO75vDt%2FdsinG3YYGxA60CimDpOqASnClE%2Bn%2FANT02aCJ38V5Be%2FKO5oextf1Bxh2OeW18sIeFPLjlZJVJvVZUFQFZraO1TKqKRObvWLiSyng8fAfGTLT39729GE%2BQE5cgcWaqWzNB1uHev1f8mVa6ai18LMWq9KgUxieqNLzGNobNXmVO%2BJ%2B2WTK7mrEWnjKvezw9ytmlA6Kj%2F%2Buu%2FakY3FcUfEEF%2BYNo9L9erRNtNKw315BX2%2Bwe%2BZ8BLb%2FJ1GZxBShOgAXaelwoCDdbwBtf6hi3ky1JGUibXUfNw0esf6w6GHQfwkEcSQjAzlhYXMmPv6ZPhYShY3wEZ%2FuGUhUWYOAIRGV3MDc%2BfWtgyKbjc5ErJUPhoWDHfRoEi9De1a9dh7Mu7rcEsIYKOldRojTHkqDJTt8FNhN1oB%2BjTeJweb8bWLFjrLzkRKJZNc59ou81Y3xsuRLx9W46knBzIRlihuKOVUhzGd5ZT3AVJ80Y5uMbw%2FJktt17TZarIVZbIRnzzoNAM80%2FHlisYkLMzWbp5glR8TyPrFRnJ0Pe2%2BUwwOOI4mlrdmhpHgk1ubiiUcsJirewn5tms7xTCOgwSF9DYvU04fvL%2Fztebf7EtoDB0Oz0r0nfas8aG4u9U8wB7eAQ8jDb4aiuBjqyAbseWzjLH2P3hLRpdCb%2FW4NlitL4s5QZmlzqTqVYHvzf6hys065ViL2h56%2BJ92w5TC34YAmAG1YfEgA1u0VsHtMw7RQtkarXfLi94IPCMp%2FIxw4AqJgS%2BNuhxpgN8MssjG4PIEUWIbjQ5cxiIQ5KxOMh%2Ff9AwiA1R5olyflLK6ZrkgIFjCwmsAPVX2eK29EUcxuQZUpYemxnjyV0Vbq4XM0rbFAtWJV5t8HOsgYevCj6fLA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240212T155432Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYHJ6LRF6%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=94fbd99b2f2dc47ec7873905ab7f52b9fac26134767466cf05383034e73d853a&hash=7606a43dbe46f9890ac21f2a83ca476867b6641ca74ccc405f0b756ffea84985&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0363811121000825&tid=spdf-1042482d-578f-44ba-8016-d4d1c22d5feb&sid=6a352f6754a059498b99b619b8dd703aca4fgxrqa&type=client&ua=15115c5b5556565502&rr=854602bfa85b2844&cc=us):
+    1. One of the best ways to build trust with employees is to be transparent in your communication. Transparent communication means making sure that all *legally releasable* information is available to employees in an **accurate and timely** manner. Transparent communication enhances the employees’ reasoning abilities and helps hold organizations accountable for their actions, policies, and practices. 
+    
+    Sometimes it is not possible for a supervisor to answer certain questions, and part of the transparent communication is verbally letting the employee know that something is confidential or that you are not at liberty to talk about it. 
+    
+2. **Learn more about what resources employees need to perform to the best of their abilities.** 
+    1. One of the major reasons people experience burnout is because they don’t have the resources they need to effectively do their job.  By learning about and providing the resources employees need, supervisors can help employees feel connected to the organization and be effective in their work. This can look like the supervisor sitting down and having a conversation with the employee to discuss the resources needed for success at the job. Supervisors can do this on a schedule or an as-needed basis. 
+    2. Common resources that employees need include:
+        1. Physical devices (such as laptops or desktops)
+        2. Time
+        3. Training
+
+When we let people have a say in their workplace, we show them th*ey matter*. 
+
+*Being transparent with our employees requires us to be as open and honest as possible. Communicate as much as you can, especially if something is affecting employees.* 
+
+**ACTIVITY: SINGLE SELECT (MULTIPLE CHOICE)**
+
+*Part of transparent communication is verbally letting the employee know that something is confidential or that you are not at liberty to discuss it.* 
+
+1. Pick a phrase to help you be transparent 
+    1. “Are there things you would like to know about how the project is going?”
+    2. “Is there information that you’re curious about from my end?”
+    3. “I wanted to update you on what I’ve been doing…”
+    4. “I understand your concern about this decision, I can do my best to answer any questions you have, but please know I…” 
+    
+    [Variable: Transparency_Phrase]
+    
+
+**ACTIVITY: MULTI-SELECT WITH “OTHER”**
+
+*We can offer employees resources to help them. Initiate a conversation by asking, “What resources do you need from me to accomplish this task?”*
+
+After talking to your employee, Pick 2 resources that you can provide for your employees: 
+
+1. Time
+2. Skill building (extra training) 
+3. Tangible resources (computers, uniforms, etc.)
+4. Other
+    1. TEXTBOX
+
+ [Variable: Two_resources]
+
+## **3. Encouraging and engaging in social support**
+
+Our third tool for reducing burnout as a supervisor is to encourage and engage in social support **[[9](https://www.notion.so/9-2c6432ba1ef84b3285e22df11b684bd8?pvs=21)]**. Supervisors can encourage social support at work in many different ways. One of the best ways to do this is to foster genuine and high-quality relationships with your employees. Supervisors can do this by being empathetic and creating an environment of trust. When your employee comes to you with a problem, you can engage in perspective-taking to understand their points of view. Ask yourselves questions like:
+
+1. How would I feel if that were me?
+2. What can I do to support this employee?
+
+Another way to encourage social support at work is to provide opportunities for coworkers to talk and reflect on their work with *each other*. Sometimes, just venting about a problem and exploring solutions with another coworker is all an employee may need to feel better. This would mean avoiding micro-managing employees. Supervisors can also implement team-building activities such as icebreakers to help everyone get to know each other. 
+
+(Kate gives examples of team-building activities).
+
+*Listening and having conversations with your employees (our first two tools) are also ways to offer social support. Let’s look at another example of giving support.*
+
+**ACTIVITY: TEXT ENTRY**
+
+*Imagine one of your employees approaches you and expresses frustration about a project they have been working on. Respond to the following questions:* 
+
+1. How would I feel if that were me?
+    1. TEXTBOX
+2. What can I do to support this employee?
+    1. TEXTBOX
+
+*Supervisors can also implement team-building activities such as icebreakers to help everyone get to know each other.*
+
+3. Think of one team-building activity you can implement for your team.
+
+1. TEXTBOX
+
+### **4. Providing Stress Management Resources**
+
+Our final tool for reducing burnout is to **provide stress management resources for employees** [[4]](https://www.anesthesiallc.com/images/eAlertsSource/Finding-solutions-to-burnout-Maslach-CPJ-2017-3.pdf), [**[6]](https://www.sciencedirect.com/science/article/pii/S0007681321000392).** Research shows that stress management interventions can help employees adapt to stressful situations and reduce emotional exhaustion. There are many different ways organizations can do this. For example, adding cognitive behavioral training, which helps people learn how to evaluate their thoughts and learn to cope with stress, can be useful as a way to develop healthy thinking patterns. 
+
+As another example, organizations can also create an option for employees to engage in mindful meditation sessions, which can help reduce tension. There are two ways we can do this [**[6]**](https://www.sciencedirect.com/science/article/pii/S0007681321000392)
+
+1. **A prevention strategy**: if you as a supervisor know that a stressful time is coming for employees such as layoffs or a busy quarter, you can implement an on-the-spot activity such as weekly meditation groups. You recognize that employees will be stressed and take steps to ensure they can handle it. 
+2. **Implementing small breaks for employees** [**[8]](https://link.springer.com/content/pdf/10.1007/s00420-023-01985-6.pdf).** Research looking at both blue-collar and white-collar workers has found that breaks at work are helpful for employee productivity. Specifically, when employees can take short *voluntary* breaks, they report lower feelings of emotional distress. These short breaks are a chance for employees to socialize with each other and relax. 
+    1. In these breaks, encourage employees to go into nature and take a walk instead of scrolling on their phones like we are all tempted to! 
+    2. As a supervisor, you can help employees by verbally encouraging breaks; you can also set the example by taking these breaks yourself too.  
+    
+    **ACTIVITY: MULTI-SELECT WITH “OTHER”**
+    
+    What (if any) employee stress management resources does your workplace have?
+    
+    - Meditation Groups
+    - Access to mindfulness apps
+    - Relaxation Rooms
+    - Flexible Break Times
+    - Other
+        - TEXTBOX
+    
+    **ACTIVITY: YES OR NO CHECKBOX**
+    
+    Have you encouraged employees to take advantage of these resources?
+    
+    - Yes, I have
+    - No, I haven’t
+    
+    **ACTIVITY: MULTI-SELECT WITH “OTHER”**
+    
+    *Taking small breaks allows employees to relax and socialize with others, which is associated with lower stress. As a supervisor, you can encourage employees to take breaks.*
+    
+    Pick one type of break you will encourage your employee to take: 
+    
+    - Go on a short walk
+    - Meditate for 10 minutes
+    - Avoid screens (of all types!) for 10 minutes
+    - Other
+        - TEXTBOX

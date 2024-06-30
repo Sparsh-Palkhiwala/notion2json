@@ -1,0 +1,679 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="9c646bfe-7b16-47e0-895b-38584dc1f6c0" class="page sans"><header><h1 class="page-title"></h1><p class="page-description"></p></header><div class="page-body"><p id="c4539aa3-7c73-45f2-9609-c445cca25c30" class="">Hi, I’m Kate, and this is Psych for Life®.</p><p id="6a4dc6d7-4bb1-4826-a186-3586bf9bde1c" class="">Now that we know about the telltale signs of burnout, we will zero in on the workplace, and the steps that supervisors can take to reduce burnout in their employees. </p><p id="615751e8-a645-4819-aaec-9658a3b3e59d" class="">Research has shown that employees experiencing burnout are at a higher risk of leaving the job.<mark class="highlight-default"> Even those who stay have lower productivity and commitment to their job. Therefore, it is in the supervisor&#x27;s and the organization&#x27;s best interest to create a healthy workplace environment.</mark></p><p id="0796c4d3-9892-45b2-89d9-58d856e74bef" class=""><mark class="highlight-default">Additionally, studies have shown that workplace practices have a bigger impact on employee burnout than what employees do themselves to reduce their symptoms of burnout. This is why it is so important to focus on changes in the workplace itself as a starting point. </mark></p><p id="19b25c54-8837-4101-ae2b-efd4f5c3d4b0" class="">So, how can supervisors reduce employee burnout? </p><p id="666a7ea0-ce5b-4a12-b2f2-a4a3c6ad2cac" class="">In this video, we will look at 4 tools for reducing burnout in the workplace including:<div class="indented"><ol type="1" id="eb5fc388-1249-4eb2-a66e-e2e4cb606ab5" class="numbered-list" start="1"><li>Making space for employees to be active crafters of their work</li></ol><ol type="1" id="3812ae24-0d05-4d09-9a29-bc7fe6d0467f" class="numbered-list" start="2"><li>Involving employees in decision-making</li></ol><ol type="1" id="fdfc3bda-5ea0-48fc-b6c9-37bd33fb59d7" class="numbered-list" start="3"><li>Encouraging and engaging in social support and</li></ol><ol type="1" id="fb669101-beea-4e0b-b04e-de434b319e94" class="numbered-list" start="4"><li>Providing Stress Management Resources</li></ol></div></p><p id="87613660-4530-4a70-9c5e-d8feb2b7472b" class="">Let’s get started! </p><p id="24382631-9ae5-495a-b9b9-99279fe774eb" class="">Hi, I’m Kate, and this is Psych for Life®.</p><p id="cedbf359-78db-4915-aeef-cd1daa37bcf3" class="">Now that we know about the telltale signs of burnout, we will zero in on the workplace, and the steps that supervisors can take to reduce burnout in their employees. </p><p id="cae7a0d6-f97a-445a-8dc9-f7707f156da0" class="">Research has shown that employees experiencing burnout are at a higher risk of leaving the job. <mark class="highlight-default">Even those who stay have lower productivity and commitment to their job. Therefore, it is in the supervisor&#x27;s and the organization&#x27;s best interest to create a healthy workplace environment.</mark></p><p id="f94388ca-8ba6-40c4-a0ef-1f9e7592bfd8" class=""><mark class="highlight-default">Additionally, studies have shown that workplace practices have a bigger impact on employee burnout than what employees do themselves to reduce their symptoms of burnout. This is why it is so important to focus on changes in the workplace itself as a starting point. </mark></p><p id="d51c8c2c-f36c-4c4a-a513-14b894662cac" class="">So, how can supervisors reduce employee burnout? </p><p id="ca14c97f-c233-4816-93c3-f77d13ef90bc" class="">In this video, we will look at 4 tools for reducing burnout in the workplace including:<div class="indented"><ol type="1" id="90500396-54a7-4977-83de-dfbcc2861cbc" class="numbered-list" start="1"><li>Making space for employees to be active crafters of their work</li></ol><ol type="1" id="cd327901-7fa8-4a51-a812-cd29ba989ddf" class="numbered-list" start="2"><li>Involving employees in decision-making</li></ol><ol type="1" id="db7b3c0b-a272-4c38-85f5-4c50f9c87e3c" class="numbered-list" start="3"><li>Encouraging and engaging in social support and</li></ol><ol type="1" id="ef5fa3ca-34a9-4e56-86f2-0544e9479e19" class="numbered-list" start="4"><li>Providing Stress Management Resources</li></ol></div></p><p id="c017d83f-7667-42c0-9d0a-c4d2a226d046" class="">Let’s get started! </p><p id="402df3b0-6100-4c47-8018-cf143519bd82" class="">{ICON} : man standing on mountain.</p><h2 id="818b93e2-5628-4eb2-961c-36a890547295" class=""><strong>1. Making Space For Employees To Be Active Crafters of their Work</strong></h2><p id="47fbcecd-083c-4ff6-929d-5e0cc293f608" class="">Our first tool for reducing burnout at work is to create an environment that allows employees to be active crafters of their work. Now, what exactly does this mean? This means that employees have some say in whatever they are working on. The supervisor can still have the final say, but granting employees some autonomy gives flexibility and control back to the employee.</p><ul id="cedf7870-d6a8-4576-9e59-9bf942dc4161" class="bulleted-list"><li style="list-style-type:disc">This can look like a supervisor asking an employee whether they would like to do task 1 or task 2. Both tasks will need to be done at some point, but the key idea is that the employee gets to <em>choose</em> what to do. </li></ul><p id="07c6f404-8def-4e65-8d30-37b4fe185be9" class="">Research shows that employees having some say in their work is associated with higher motivation and engagement. So, supervisors can lower the chances of employees experiencing burnout by giving them autonomy over their work. </p><p id="64c0379b-2f0f-4ac6-88fd-0e0dc0a2ceae" class=""><mark class="highlight-default">{ACTIVITY: TEXT ENTRY}</mark></p><p id="7ea30f81-c581-49fd-8583-e8fc223cff32" class=""><mark class="highlight-default">{ACTIVITY: TEXT ENTRY}</mark></p><p id="35a99442-d04f-4deb-bcc3-e735b4b7a5b1" class=""><mark class="highlight-default">{ACTIVITY: SINGLE SELECT (MULTIPLE CHOICE)}</mark></p><p id="407a4be3-a10e-45f6-8f3d-e025881d52ab" class="">{ICON : MAN NEAR LAKE}</p><h2 id="1b929c32-8ae8-40b9-83c2-43da5ce456fb" class=""><strong>2. Involving employees in decision-making </strong></h2><p id="59fcff65-f982-442e-a9b7-51e91cde4c19" class="">Our second tool for reducing employee burnout is to involve employees in the decision-making process. This builds on our first tool of allowing employees to be active crafters of their work and builds upon it by giving them a voice in how the whole team operates. We can engage employees in a few different ways:<div class="indented"><ol type="1" id="e3497482-d158-4bca-bf45-818ffabf4af2" class="numbered-list" start="1"><li>Communicate transparently about how decisions are made:<ol type="a" id="36a736dc-b4e0-4017-a701-5f1d55a324e0" class="numbered-list" start="1"><li>One of the best ways to build trust with employees is to be transparent in your communication. Transparent communication means making sure that all <em>legally releasable </em>information is available to employees in an <strong>accurate and timely </strong>manner. Transparent communication enhances the employees’ reasoning abilities and helps hold organizations accountable for their actions, policies, and practices. </li></ol><p id="4a8b5152-132a-43e1-a26f-0cec6d55d03c" class=""><mark class="highlight-default">Sometimes it is not possible for a supervisor to answer certain questions, and part of the transparent communication is verbally letting the employee know that something is confidential or that you are not at liberty to talk about it. </mark></p></li></ol><ol type="1" id="2c7d70c3-3687-4d90-9262-77a1af062f5e" class="numbered-list" start="2"><li>Learn more about what resources employees need to perform to the best of their abilities. <ol type="a" id="d6af9f7a-92ce-4adc-a7e5-1de85047a2e1" class="numbered-list" start="1"><li>One of the major reasons people experience burnout is because they don’t have the resources they need to effectively do their job.  By learning about and providing the resources employees need, supervisors can help employees feel connected to the organization and be effective in their work. This can look like the supervisor sitting down and having a conversation with the employee to discuss the resources needed for success at the job. Supervisors can do this on a schedule or <mark class="highlight-default">an as-needed basis. </mark></li></ol><ol type="a" id="0c07dc61-ab3f-4d5b-b39f-123a974ef53c" class="numbered-list" start="2"><li>Common resources that employees need include:<ol type="i" id="e176970c-d6ea-4b57-be67-06736655401b" class="numbered-list" start="1"><li>Physical devices (such as laptops or desktops)</li></ol><ol type="i" id="af0e7012-1b41-4162-9f3e-4340a25d7b80" class="numbered-list" start="2"><li>Time</li></ol><ol type="i" id="875555dd-92e2-44d5-bcaa-9ee4a732ac60" class="numbered-list" start="3"><li>Training</li></ol></li></ol></li></ol><p id="42bf6024-ab05-4e46-995d-d30d6d2c574b" class="">When we let people have a say in their workplace, we show them th<em>ey matter</em>. </p><p id="54a1c6c8-ed6d-4181-9b36-3acf056390d6" class=""><mark class="highlight-default">{ACTIVITY: SINGLE SELECT (MULTIPLE CHOICE)}</mark></p></div></p><h2 id="71625b24-18ec-40e5-9690-42d5334fdbe6" class=""><strong>3.</strong><mark class="highlight-default"><strong> Encouraging and engaging in social support</strong></mark></h2><p id="f439e3fe-c2a8-4e13-84fb-e2b1416947f9" class="">Our third tool for reducing burnout as a supervisor is to encourage and engage in social support . Supervisors can encourage social support at work in many different ways. One of the best ways to do this is to foster genuine and high-quality relationships with your employees. Supervisors can do this by being empathetic and creating an environment of trust. When your employee comes to you with a problem, you can engage in perspective-taking to understand their points of view. Ask yourselves questions like:<div class="indented"><ol type="1" id="1f8788a9-1c89-466f-bcdb-0b3d27cd510b" class="numbered-list" start="1"><li>How would I feel if that were me?</li></ol><ol type="1" id="73a0eb76-cebf-44a2-b867-8b721e6caad0" class="numbered-list" start="2"><li>What can I do to support this employee?</li></ol></div></p><p id="27bae048-03d2-4431-9a90-b9db783158f8" class="">Another way to encourage social support at work is to provide opportunities for coworkers to talk and reflect on their work with <em>each other</em>. Sometimes, just venting about a problem and exploring solutions with another coworker is all an employee may need to feel better. This would mean avoiding micro-managing employees. Supervisors can also implement team-building activities such as icebreakers to help everyone get to know each other. </p><p id="62af48ed-5b50-4f2e-a402-cfee09c2a703" class="">(Kate gives examples of team-building activities).</p><p id="dad1411d-83c6-4d02-a9ff-7c278f52dc84" class="">
+</p><p id="089fa68d-4966-494d-a16a-5650f90a2094" class=""><em>Listening and having conversations with your employees (our first two tools) are also ways to offer social support. Let’s look at another example of giving support.</em></p><p id="ab4c42e1-e2e8-43dc-81a3-b57d7371083f" class=""><mark class="highlight-default">{ACTIVITY: TEXT ENTRY}</mark></p><p id="caae8050-409c-41dd-bdf2-6ada03c8e7b9" class="">{ICON : MAN PETTING DOG}</p><h3 id="56225fb6-45a6-40ef-b8fd-e42a488f9ee0" class=""><strong>4. Providing Stress Management Resources </strong><mark class="highlight-blue"><strong> </strong></mark></h3><p id="2a4cd0da-5ef1-411d-9a09-7326fef40a10" class="">Our final tool for reducing burnout is to <strong>provide stress management resources for employees. </strong>Research shows that stress management interventions can help employees adapt to stressful situations and reduce emotional exhaustion. There are many different ways organizations can do this. For example, adding cognitive behavioral training, which helps people learn how to evaluate their thoughts and learn to cope with stress, can be useful as a<mark class="highlight-default"> way to develop healthy thinking patterns</mark>. </p><p id="494fb007-8f44-4c46-bd09-5877a52a3197" class="">As another example, organizations can also create an option for employees to engage in mindful meditation sessions, which can help reduce tension. There are two ways we can do this</p><ol type="1" id="3d318e7d-39de-4eaa-b24e-0784e9cf915a" class="block-color-default numbered-list" start="1"><li>A prevention strategy: if you as a supervisor know that a stressful time is coming for employees such as layoffs or a busy quarter, you can implement an on-the-spot activity such as weekly meditation groups. You recognize that employees will be stressed and take steps to ensure they can handle it. </li></ol><ol type="1" id="9a756ddf-9181-4faa-b3af-5a4b549df754" class="numbered-list" start="2"><li>Implementing small breaks for employees<mark class="highlight-default">. Research looking at both blue-collar and white-collar workers has found that breaks at work are helpful for employee productivity. Specifically, when employees can take short </mark><em><mark class="highlight-default">voluntary </mark></em><mark class="highlight-default">breaks, they report lower feelings of emotional distress. These short breaks are a chance for employees to socialize with each other and relax. </mark><ol type="a" id="7d715891-826f-4789-857c-d2e0f95245a5" class="numbered-list" start="1"><li>In these breaks, encourage employees to go into nature and take a walk instead of scrolling on their phones like we are all tempted to! </li></ol><ol type="a" id="b38ace58-3baf-4368-beee-43561c1c11f3" class="numbered-list" start="2"><li><mark class="highlight-default">As a supervisor, you can help employees by verbally encouraging breaks; you can also set the example by taking these breaks yourself too.  </mark></li></ol><p id="dc0f6ce0-b946-4e34-9f0e-cfe3272add98" class=""><mark class="highlight-default">{ACTIVITY: MULTI-SELECT WITH “OTHER”}</mark></p><p id="171f4d36-a608-4a31-acf0-b35f48bc4c89" class=""><mark class="highlight-default">{ACTIVITY: MULTI-SELECT WITH “OTHER”}</mark></p><p id="8cc44b44-dc33-404a-b66e-d1b82fa13496" class="">
+</p></li></ol></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
