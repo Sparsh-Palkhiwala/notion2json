@@ -141,8 +141,8 @@ def convert_markdown_to_json(input_file_path, output_file_path):
     write_json_file(json_data, output_file_path)
 
 # Usage example
-input_markdown_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\markdown\test4.md"
-output_json_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\output\test4.json"
+input_markdown_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\markdown\Setting_Smart_Goals.md"
+output_json_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\output\Setting_Smart_Goals.json"
 convert_markdown_to_json(input_markdown_file, output_json_file)
 
 
