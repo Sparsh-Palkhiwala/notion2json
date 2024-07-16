@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Setting Smart Goals",
+    "color": "#8ED6ED",
+    "icon": {
+      "name": "Module Icon",
+      "url": "some_icon_url",
+      "alt": "Module Icon Alt"
+    },
+    "lessons": [
+      {
+        "title": "Introduction",
+        "icon": {
+          "name": "Lesson Icon",
+          "url": "some_icon_url",
+          "alt": "Lesson Icon Alt"
+        },
+        "pages": []
+      },
+      {
+        "title": "Why is knowing how to set goals important?",
+        "icon": {
+          "name": "Lesson Icon",
+          "url": "some_icon_url",
+          "alt": "Lesson Icon Alt"
+        },
+        "pages": [
+          {
+            "title": "What are SMART goals?",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "SMART stands for: \n- Specific\n- Measurable\n- Attainable\n- Relevant\n- Time-bound"
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "We will cover what exactly each component means in our next section. \nHere are our key takeaways:"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Key Takeaways",
+            "components": []
+          },
+          {
+            "title": "Specific",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "SPECIFIC"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": ""
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "When we are setting our goals, we want to start by making sure they are specific. This means that our goal should be clear and well-defined."
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "text_entry",
+                  "label": "How are you going to accomplish the goal?",
+                  "variable": "how_to_accomplish",
+                  "placeholder": "I will run everyday, and plan my rest"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Measurable",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "MEASURABLE"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": ""
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Next, we want to make sure that we have a way to track our progress. Building on our previous example of improving job satisfaction, we can make this goal measurable by deciding\u00a0how frequently\u00a0we will write about what we enjoyed at work."
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "text_entry",
+                  "label": "How will you measure your progress?",
+                  "variable": "being_measurable",
+                  "placeholder": "I will plan my runs, where I will reach one more mile each day"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Attainable",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "ATTAINABLE"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": ""
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "One important part of goal setting is to be realistic with ourselves. We need to make sure our goal is achievable.  We also don\u2019t want our goal to be so easy that it has no real impact on our life. Research has shown that going for more challenging goals usually leads to better performance when we are committed and willing to learn new skills."
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Choosing an attainable goal requires us to assess if we need additional people or resources, and to have a clear idea of our strengths and weaknesses."
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "checkbox",
+                  "label": "Does this goal seem attainable to you?",
+                  "variable": "is_attainable"
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "text_entry",
+                  "label": "What are some challenges in achieving this goal?",
+                  "variable": "expected_challenges",
+                  "placeholder": "Finding time to run everyday"
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "checkbox",
+                  "label": "What is your plan for overcoming these challenges?",
+                  "variable": "how_to_overcome"
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "text_entry",
+                  "label": "If this goal is too difficult to be attainable right now, how will you modify it?",
+                  "variable": "modification_if_needed",
+                  "placeholder": "Reducing the goal by 2 miles, and increasing timeline"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Relevant",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Relevant"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": ""
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "The goal we set should matter to us and be relevant.  Our SMART goal of writing one thing every day that we enjoy at work is aligned with our long-term goal of improving our work satisfaction. This goal is relevant and useful in our lives."
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "text_entry",
+                  "label": "How will achieving this goal help you?",
+                  "variable": "goal_relevance",
+                  "placeholder": "By running it is going to improve my fitness levels, which helps me to be more active with family"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Time-Bound",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Time-Bound"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": ""
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Finally, our goal needs a deadline. Having a deadline can help us stay on track.The time-bound aspect of SMART goals can be tricky because it will depend on our circumstances."
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "We should set our deadline so it is consistent with all the other things we discussed. Our deadline should be specific and realistic."
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "calendar_input",
+                  "label": "Chose when to complete your goal:",
+                  "variable": "smart_goals_Timeline",
+                  "placeholder": "MM/DD/YYYY"
+                }
+              },
+              {
+                "type": "ACTIVITY",
+                "content": {
+                  "type": "calender_input",
+                  "label": "When will you achieve your goal?",
+                  "variable": "goal_expected_timeline",
+                  "placeholder": "MM/DD/YYYY"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Conclusion",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "SMART goals are useful in all aspects of our lives. While our example focused specifically on work, we can use SMART goals in our personal lives for self-improvement, teaching our kids something, and so much more."
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "We can also use SMART goals to build a lot of the skills in Psych For Life modules, including healthy habits, getting adequate sleep, and practicing self-care."
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Thanks for joining us. For more science-backed strategies for improving your life, check out our other modules here at Psych for Life\u00ae"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
