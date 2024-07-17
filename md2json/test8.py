@@ -131,3 +131,56 @@ def convert_markdown_to_json(input_file_path, output_file_path):
 input_markdown_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\markdown\Setting_Smart_Goals_2.md"
 output_json_file = r"C:\Users\ASUS\Downloads\notiontojson\notion2json\md2json\output\Setting_Smart_Goals_2_test8.json"
 convert_markdown_to_json(input_markdown_file, output_json_file)
+
+
+
+"""
+Markdown Structure : 
+
+# Module Title
+
+## Lesson Title
+
+### Page Title
+
+::activity:: text entry
+<div>
+label: Write three things that you love about your partner
+variable: thing1
+placeholder:
+
+label: Write a way that you can support your partner
+variable: support_action
+placeholder:
+</div>
+
+### Another Page Title
+
+::activity:: calendar input
+<div>
+label: Plan a pleasant event, specify the date, time, and place/activity
+variable: event_date
+placeholder:
+</div>
+
+::activity:: checkbox
+<div>
+label: Did you complete the task?
+variable: task_complete
+options:
+- Yes
+- No
+</div>
+
+# Another Module Title
+
+## Another Lesson Title
+
+### Another Page Title
+
+Paragraph text goes here.
+
+[Link to a video](https://player.vimeo.com/video/740060013?color&autopause=0&loop=0&muted=0&title=0&portrait=0&byline=0&h=480c719fc8#t=)
+
+
+"""
