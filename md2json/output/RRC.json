@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Romantic Relations Conflict",
+    "color": "#8ED6ED",
+    "icon": {
+      "name": "Module Icon",
+      "url": "some_icon_url",
+      "alt": "Module Icon Alt"
+    },
+    "lessons": [
+      {
+        "title": "Introduction",
+        "icon": {
+          "name": "Lesson Icon",
+          "url": "some_icon_url",
+          "alt": "Lesson Icon Alt"
+        },
+        "pages": [
+          {
+            "title": "Acts of Kindness",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "ACTS OF KINDNESS"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": "https://vimeo.com/949636498/91c0308e4e"
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Okay, let's get started. First, write three things you love about your partner. These could include their sense of humor, the way they laugh, their thoughtfulness, and if they're particularly good at a skill - such as art or music. Next, write down a way that you can support your partner. Maybe it's listening, helping them plan something related to work or family, or even just making them a cup of coffee before a meeting. Finally, plan a pleasant event. You and your partner might wanna fill this out together."
+                }
+              },
+              {
+                "type": "INPUT",
+                "content": {
+                  "label": "Plan a pleasant event WITH your partner. Pick a day, time and place. You may want to fill this activity out with your partner.",
+                  "variable": "pleasent_evening_with_partner",
+                  "placeholder": "Picnic with my partner this Saturday"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Romantic Reflection",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "ROMANTIC REFLECTION"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": "https://vimeo.com/949636694/70d0a94bd1"
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "You wanna go through the top section before starting the conversation [with your partner]. Take a minute to think both about the situation and how you're feeling about it. For instance, perhaps you're planning the calendar for the next few months and you're starting to feel anxious that you're getting overbooked. Next, consider what makes this situation difficult for you. In our example, maybe you're concerned about fulfilling your obligations."
+                }
+              },
+              {
+                "type": "INPUT",
+                "content": {
+                  "label": "Describe what makes you feel this way about the situation, or what makes the situation difficult",
+                  "variable": "reason_for_anxiety",
+                  "placeholder": "I'm worried I will get overbooked and mess up at work.",
+                  "": ":activity::text_entry"
+                }
+              }
+            ]
+          },
+          {
+            "title": "Active Listening",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "ACTIVE LISTENING"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": "https://vimeo.com/949636785/95fdbde1a6"
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "The bottom section on page three will help with active listening. When you're having a tough conversation, it can be natural to want to get a little defensive, but try to take the time to really understand where your partner is coming from. Remember, it's not you against them. It's you and them against the problem. Use these questions to try to understand your partner's point of view."
+                }
+              },
+              {
+                "type": "INPUT",
+                "content": {
+                  "label": "Pick one or multiple phrases you'd like to practice using with your partner to try and understand your partner's point of view",
+                  "variable": "practice_with_partner",
+                  "options": ""
+                }
+              }
+            ]
+          },
+          {
+            "title": "Finding a solution together",
+            "components": [
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "FINDING A SOLUTION TOGETHER"
+                }
+              },
+              {
+                "type": "VIDEO",
+                "content": {
+                  "url": "https://vimeo.com/949636878/adeec1e104"
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Finally, on page four, you will work together to find a solution. First, describe what your partner was saying, the emotions they were feeling, and why it's important to them. In our example, working on the social calendar, you might recognize upon reflection that your partner was feeling disappointed that you weren't wanting to do the same things they wanted to do. It's important to your partner to connect with friends."
+                }
+              },
+              {
+                "type": "TEXT",
+                "content": {
+                  "text": "Next, how do you feel after describing the conflict and what did you learn about your own perspective? You might recognize that you're more excited about some of these engagements than others, and you actually don't need to do everything together. Then, together, write out a solution to help you both reach your goals. Maybe you identify the solution that can help you both reach your goals is to prioritize what's most important to your partner and to perhaps determine what events you might skip to allow you to recover and get your work done. Finally, double check the solution makes you feel valued, appreciated, and connected. You feel comfortable that everything can be done, your partner is happy with the plan, and you're both looking forward to spending time together. If not, you may want to discuss other possible solutions as you go about implementing a solution. Be sure to break things down into small, actionable steps. Make sure to give both yourself and your partner credit for your hard work. Thanks for joining us, and thanks for your hard work. To learn more about how you can improve your relationships, check out our other modules here at Psych for Life."
+                }
+              },
+              {
+                "type": "INPUT",
+                "content": {
+                  "label": "Does the solution help you and your partner feel valued, appreciated and connected?",
+                  "variable": "how_partner_feels_after_discussion",
+                  "placeholder": "Yes! The party will be a blast, we're excited!!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

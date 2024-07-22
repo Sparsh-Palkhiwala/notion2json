@@ -1,4 +1,4 @@
-#Setting Smart Goals 
+# Setting Smart Goals 
 
 ## Introduction
 Hi, I’m Kate and this is Psych for Life®.
